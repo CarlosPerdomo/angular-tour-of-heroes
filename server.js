@@ -1,12 +1,12 @@
 // OpenShift sample Node application
 var express = require('express'),
-    app     = express(),
-    morgan  = require('morgan');
+    app     = express();
+    //morgan  = require('morgan');
     
-Object.assign=require('object-assign')
+//Object.assign=require('object-assign')
 
-app.engine('html', require('ejs').renderFile);
-app.use(morgan('combined'))
+//app.engine('html', require('ejs').renderFile);
+//app.use(morgan('combined'))
 
 
 app.use(express.static(__dirname + '/dist/angular-tour-of-heroes'));

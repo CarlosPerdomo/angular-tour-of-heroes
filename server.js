@@ -1,6 +1,8 @@
 // OpenShift sample Node application
 var express = require('express'),
     app     = express();
+
+const path = require('path');
     //morgan  = require('morgan');
     
 //Object.assign=require('object-assign')

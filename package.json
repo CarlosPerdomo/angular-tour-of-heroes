@@ -43,5 +43,28 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.",
+  
+  "main": "server.js",
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  
+  "scripts": {
+    "start": "node server.js",
+    "test": "IP=0.0.0.0 PORT=8080 mocha --timeout 5000 tests/*_test.js"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosPerdomo/angular-tour-of-heroes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosPerdomo/angular-tour-of-heroes/issues"
+  },
+  "homepage": "https://github.com/CarlosPerdomo/angular-tour-of-heroes#readme"
 }
